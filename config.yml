@@ -1,6 +1,6 @@
 baseURL: "https://kartikzode.github.io/"
 languageCode: en-us
-title: Thombya's Technical Blog
+title: Kartik's Blog
 theme: PaperMod
 
 pagination:
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production
-  title: Thombya's Technical Blog
+  title: Kartik's Technical Blog
   description: "A blog about CUDA programming, GEMM optimizations, and reinforcement learning"
   keywords: [Blog, CUDA, GEMM, Reinforcement Learning, Machine Learning, GPU Programming]
-  author: Thombya
+  author: Kartik
   images: []
   DateFormat: "January 2, 2006"
   defaultTheme: auto
@@ -53,7 +53,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "Thombya's Technical Blog"
+    title: "Kartik's Technical Blog"
     subtitle: "Exploring CUDA Programming, GEMM Optimizations & Reinforcement Learning"
     imageUrl: ""
     imageWidth: 120

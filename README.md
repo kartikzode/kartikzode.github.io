@@ -1,4 +1,4 @@
-# Thombya's Technical Blog
+# Kartik's Technical Blog
 
 A personal blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, hosted on GitHub Pages.
 
@@ -19,8 +19,8 @@ This blog focuses on technical topics including:
 
 1. Clone the repository with submodules:
 ```bash
-git clone --recurse-submodules https://github.com/kartikzode/thombya.github.io.git
-cd thombya.github.io
+git clone --recurse-submodules https://github.com/kartikzode/kartikzode.github.io.git
+cd kartikzode.github.io
 ```
 
 2. If you already cloned without submodules, initialize them:
@@ -33,7 +33,7 @@ git submodule update --init --recursive
 hugo server -D
 ```
 
-4. Open your browser to `http://localhost:1313/thombya.github.io/`
+4. Open your browser to `http://localhost:1313/kartikzode.github.io/`
 
 ## 📝 Creating New Posts
 
@@ -50,7 +50,7 @@ date: 2024-01-30T10:00:00-00:00
 draft: false
 tags: ["tag1", "tag2"]
 categories: ["Category"]
-author: "Thombya"
+author: "Kartik Zode"
 showToc: true
 TocOpen: false
 description: "A brief description"
@@ -114,12 +114,12 @@ The PaperMod theme offers many customization options. See the [PaperMod document
 
 ## 📄 License
 
-Content: © 2026 Thombya
+Content: © 2026 Kartik
 Theme: MIT License (PaperMod)
 
 ## 🔗 Links
 
-- [Live Site](https://kartikzode.github.io/thombya.github.io/)
+- [Live Site](https://kartikzode.github.io/)
 - [Hugo Documentation](https://gohugo.io/documentation/)
 - [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
 # Update to trigger rebuild
