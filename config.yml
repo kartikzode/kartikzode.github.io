@@ -1,4 +1,4 @@
-baseURL: "https://kartikzode.github.io/thombya.github.io/"
+baseURL: "https://kartikzode.github.io/"
 languageCode: en-us
 title: Thombya's Technical Blog
 theme: PaperMod
@@ -75,7 +75,7 @@ params:
     hiddenInSingle: false
 
   editPost:
-    URL: "https://github.com/kartikzode/thombya.github.io/tree/main/content"
+    URL: "https://github.com/kartikzode/kartikzode.github.io/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
