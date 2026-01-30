@@ -115,6 +115,8 @@ class DQN(nn.Module):
 
 class DQNAgent:
     def __init__(self, state_dim, action_dim):
+        self.state_dim = state_dim
+        self.action_dim = action_dim
         self.q_network = DQN(state_dim, action_dim)
         self.target_network = DQN(state_dim, action_dim)
         self.target_network.load_state_dict(self.q_network.state_dict())
@@ -124,7 +126,7 @@ class DQNAgent:
     
     def select_action(self, state, epsilon=0.1):
         if np.random.random() < epsilon:
-            return np.random.randint(action_dim)
+            return np.random.randint(self.action_dim)
         with torch.no_grad():
             state = torch.FloatTensor(state)
             q_values = self.q_network(state)
